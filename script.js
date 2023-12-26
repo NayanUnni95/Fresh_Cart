@@ -21,5 +21,18 @@ document.querySelector("#menu-btn").onclick = () => {
 let bgcolor = document.querySelector(".header");
 
 document.querySelector("#color-btn").onclick = () => {
-  bgcolor.classList.toggle("active");
+  bgcolor.classList.toggle("dark-mode");
 };
+
+let email = document.getElementById("email");
+let pass = document.getElementById("pass");
+
+function check() {
+  if (email.value == null && pass.value == null) {
+    alert("Empty Input...");
+  } else {
+    console.log("Ok");
+    email.value = "";
+    pass.value = "";
+  }
+}
