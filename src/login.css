@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --black: #000000;
+  --red: rgb(255, 0, 0);
+  --light-color: #666;
+  --light-gray: #f1f1f1e0;
+  --primary-go: #ffffff;
+  --primary-fb: #1877f2;
+}
+body {
+  height: 100vh;
+  background-color: var(--black);
+}
+a {
+  text-decoration: none;
+  color: var(--light-color);
+  font-size: small;
+}
+img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 1rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: 1rem;
+  padding: 3rem 2rem 3rem 2rem;
+  flex-direction: column;
+  background-color: var(--primary-go);
+}
+.container input,
+button {
+  width: 15rem;
+  height: 2.5rem;
+  margin: 0.4rem;
+  border: 0;
+  font-weight: 500;
+  font-size: smaller;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.container input {
+  background-color: var(--light-gray);
+  font-size: smaller;
+  padding-left: 1rem;
+}
+.error {
+  width: 15rem;
+  height: 2rem;
+}
+.email {
+  display: none;
+}
+.pass {
+  display: none;
+}
+.error h4 {
+  font-size: small;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--red);
+}
+.container .login {
+  color: var(--primary-go);
+  background-color: var(--black);
+}
+.container h5 {
+  font-size: 0.7rem;
+  color: var(--light-color);
+}
+.container .google {
+  background-color: var(--primary-go);
+}
+.container .fb {
+  color: var(--primary-go);
+  background-color: var(--primary-fb);
+}
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .container input,
+  button {
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+  }
+}
