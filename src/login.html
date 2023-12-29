@@ -14,12 +14,12 @@
   <body class="flex">
     <div class="container flex">
       <h3>Welcome Back!</h3>
-      <input type="text" class="inp" placeholder="email" />
+      <input type="text" class="inp" placeholder="email" id="email" />
       <div class="email error flex"><h4>Invalid Email</h4></div>
-      <input type="text" class="inp" placeholder="password" />
-      <div class="pass error flex"><h4>Invalid password</h4></div>
+      <input type="text" class="inp" placeholder="password" id="pass" />
+      <div class="pass error flex"><h4>Enter password</h4></div>
       <a href="">Forget Password?</a>
-      <button class="login" type="submit">log in</button>
+      <button class="login" id="submit" type="submit">log in</button>
       <h5>or log in with</h5>
       <button class="google flex">
         <img src="../images/search.png" />log in with google
@@ -27,6 +27,7 @@
       <button class="fb flex">
         <img src="../images/facebook.png" alt="" />log in with facebook
       </button>
+      <script src="./action.js"></script>
     </div>
   </body>
 </html>

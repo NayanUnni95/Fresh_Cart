@@ -428,6 +428,9 @@ body {
   #menu-btn {
     display: inline-block;
   }
+  .header {
+    padding: 2.5rem;
+  }
   .header .search-form {
     width: 90%;
   }
@@ -453,6 +456,12 @@ body {
   }
   .features .box-container {
     display: grid;
+  }
+  /* #search-btn, */
+  #cart-btn,
+  #login-btn,
+  #color-btn {
+    display: none;
   }
 }
 
