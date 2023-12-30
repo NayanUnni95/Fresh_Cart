@@ -1,33 +1,34 @@
-let email = document.getElementById("email");
-let pass = document.getElementById("pass");
-let email_err = document.querySelector(".email");
-let pass_err = document.querySelector(".pass");
+const email = document.getElementById('email');
+const pass = document.getElementById('pass');
+const emailErr = document.querySelector('.email');
+const passErr = document.querySelector('.pass');
 
+// eslint-disable-next-line require-jsdoc
 function validateEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
 
-document.querySelector("#pass").onclick = () => {
-  let isValid = validateEmail(email.value);
+document.querySelector('#pass').onclick = () => {
+  const isValid = validateEmail(email.value);
   if (!isValid) {
-    email_err.classList.toggle("active");
+    emailErr.classList.toggle('active');
   } else {
-    email_err.classList.toggle(".email");
+    emailErr.classList.toggle('.email');
   }
 };
 
-document.querySelector(".login").onclick = () => {
-  let email_value = email.value || null;
-  let pass_value = pass.value || null;
-  if (email_value === null && pass_value === null) {
-    email_err.classList.toggle("active");
-    pass_err.classList.toggle("active");
-  } else if (email_value === null && pass_value != null) {
-    email_err.classList.toggle("active");
-  } else if (email_value != null && pass_value === null) {
-    pass_err.classList.toggle("active");
+document.querySelector('.login').onclick = () => {
+  const emailValue = email.value || null;
+  const passValue = pass.value || null;
+  if (emailValue === null && passValue === null) {
+    emailErr.classList.toggle('active');
+    passErr.classList.toggle('active');
+  } else if (emailValue === null && passValue != null) {
+    emailErr.classList.toggle('active');
+  } else if (emailValue != null && passValue === null) {
+    passErr.classList.toggle('active');
   } else {
-    window.open("../index.html", "_self");
+    window.open('../index.html', '_self');
   }
 };

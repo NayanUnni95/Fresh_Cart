@@ -1,0 +1,23 @@
+{
+  "name": "fresh_cart",
+  "version": "1.0.0",
+  "description": "Shopping cart website and Crafted with minimalistic UI design.",
+  "main": ".eslintrc.js",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "test": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NayanUnni95/Fresh_Cart.git"
+  },
+  "author": "Nayan SS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NayanUnni95/Fresh_Cart/issues"
+  },
+  "homepage": "https://github.com/NayanUnni95/Fresh_Cart#readme"
+}

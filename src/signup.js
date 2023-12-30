@@ -1,73 +1,74 @@
-let userName = document.getElementById("name");
-let email = document.getElementById("email");
-let pass = document.getElementById("pass");
-let confirm_pass = document.getElementById("c_pass");
-let name_err = document.querySelector(".name");
-let email_err = document.querySelector(".email");
-let pass_err = document.querySelector(".pass");
+const userName = document.getElementById('name');
+const email = document.getElementById('email');
+const pass = document.getElementById('pass');
+// const confirmPass = document.getElementById('c_pass');
+const nameErr = document.querySelector('.name');
+const emailErr = document.querySelector('.email');
+// const passErr = document.querySelector('.pass');
 
+// eslint-disable-next-line require-jsdoc
 function validateEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
 
-document.querySelector("#email").onclick = () => {
-  let value = userName.value || null;
+document.querySelector('#email').onclick = () => {
+  const value = userName.value || null;
   if (!value) {
-    name_err.classList.toggle("active");
+    nameErr.classList.toggle('active');
   } else if (value) {
-    name_err.classList.toggle(".name");
+    nameErr.classList.toggle('.name');
   }
 };
 
-document.querySelector(".passw").onclick = () => {
-  let isValid = validateEmail(email.value);
+document.querySelector('.passw').onclick = () => {
+  const isValid = validateEmail(email.value);
   if (!isValid) {
-    email_err.classList.toggle("active");
+    emailErr.classList.toggle('active');
   } else if (isValid) {
-    email_err.classList.toggle(".email");
+    emailErr.classList.toggle('.email');
   }
 };
 
-document.querySelector("#submit").onclick = () => {
-  let name_value = userName.value || null;
-  let email_value = email.value || null;
-  let pass_value = pass.value || null;
-  let con_pass = confirm_pass.value || null;
-  if (name_value && email_value && pass_value && con_pass) {
-    if (pass_value != con_pass) {
-      pass_err.classList.toggle("active");
-    } else if (pass_value === con_pass) {
-      pass_err.classList.toggle(".pass");
-      window.open("../index.html", "_self");
+document.querySelector('#submit').onclick = () => {
+  const nameValue = userName.value || null;
+  const emailValue = email.value || null;
+  const passValue = pass.value || null;
+  const conPass = confirmPass.value || null;
+  if (nameValue && emailValue && passValue && conPass) {
+    if (passValue != conPass) {
+      passErr.classList.toggle('active');
+    } else if (passValue === conPass) {
+      passErr.classList.toggle('.pass');
+      window.open('../index.html', '_self');
     }
-    console.log("Login success 🎊");
-  } else if (!name_value && !email_value && !pass_value && !con_pass) {
+    console.log('Login success 🎊');
+  } else if (!nameValue && !emailValue && !passValue && !conPass) {
     // console.log(".");
-    name_err.classList.toggle("active");
-    email_err.classList.toggle("active");
-    pass_err.classList.toggle("active");
-  } else if (name_value && !email_value && !pass_value && !con_pass) {
+    nameErr.classList.toggle('active');
+    emailErr.classList.toggle('active');
+    passErr.classList.toggle('active');
+  } else if (nameValue && !emailValue && !passValue && !conPass) {
     // console.log("..");
-    name_err.classList.toggle(".name");
-    email_err.classList.toggle("active");
-    pass_err.classList.toggle("active");
-  } else if (!name_value && email_value && !pass_value && !con_pass) {
+    nameErr.classList.toggle('.name');
+    emailErr.classList.toggle('active');
+    passErr.classList.toggle('active');
+  } else if (!nameValue && emailValue && !passValue && !conPass) {
     // log("...");
-    name_err.classList.toggle("active");
-    email_err.classList.toggle(".email");
-    pass_err.classList.toggle("active");
-  } else if (name_value && email_value) {
+    nameErr.classList.toggle('active');
+    emailErr.classList.toggle('.email');
+    passErr.classList.toggle('active');
+  } else if (nameValue && emailValue) {
     // console.log("....");
-    name_err.classList.toggle(".name");
-    email_err.classList.toggle(".email");
-    console.log(`${pass_value} ${con_pass}`);
-    if (!pass_value && !con_pass) {
+    nameErr.classList.toggle('.name');
+    emailErr.classList.toggle('.email');
+    console.log(`${passValue} ${conPass}`);
+    if (!passValue && !conPass) {
       //   console.log("*");
-      pass_err.classList.toggle("active");
-    } else if (!pass_value || con_pass) {
+      passErr.classList.toggle('active');
+    } else if (!passValue || conPass) {
       //   console.log("**");
-      pass_err.classList.toggle("active");
+      passErr.classList.toggle('active');
     }
   }
 };
