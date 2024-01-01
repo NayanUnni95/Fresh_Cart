@@ -2,6 +2,7 @@ import {product} from './data.js';
 const searchForm = document.querySelector('.search-form');
 const shoppingCart = document.querySelector('.shopping-cart');
 const loginForm = document.querySelector('.login-form');
+const accForm = document.querySelector('.acc-form');
 const menuBar = document.querySelector('.navbar');
 const bgColor = document.querySelector('.header');
 
@@ -27,7 +28,18 @@ document.querySelector('#login-btn').onclick = () => {
   bgColor.classList.remove('dark-mode');
   searchForm.classList.remove('active');
   shoppingCart.classList.remove('active');
-  loginForm.classList.toggle('active');
+
+  const userName = localStorage.getItem('name');
+  const userPass = localStorage.getItem('pass');
+  if (!userName && !userPass) {
+    loginForm.classList.toggle('active');
+    console.log('.');
+    // window.open('./login.html', '_self');
+  } else {
+    accForm.classList.toggle('active');
+    console.log('..');
+    // window.open('./acc.html', '_self');
+  }
 };
 
 document.querySelector('#menu-btn').onclick = () => {
@@ -120,6 +132,11 @@ document.querySelector('#home-profile-btn').onclick = () => {
     // window.open("../index.html", "_self");
     window.open('./login.html', '_self');
   } else {
-    alert('successfully logged...');
+    window.open('./acc.html', '_self');
   }
+};
+
+document.querySelector('#logout').onclick = () =>{
+  localStorage.clear();
+  window.open('./home.html', '_self');
 };

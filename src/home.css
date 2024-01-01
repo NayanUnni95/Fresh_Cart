@@ -38,6 +38,9 @@ html {
 body {
   background: #eee;
 }
+a{
+  text-decoration: none;
+}
 .section {
   padding: 2rem 9%;
 }
@@ -217,7 +220,8 @@ body {
   display: block;
   text-align: center;
 }
-.header .login-form {
+.header .login-form,
+.acc-form {
   position: absolute;
   top: 110%;
   right: -110%;
@@ -229,6 +233,10 @@ body {
   text-align: center;
 }
 .header .login-form.active {
+  right: 2rem;
+  transition: 0.4s linear;
+}
+.header .acc-form.active {
   right: 2rem;
   transition: 0.4s linear;
 }
@@ -262,7 +270,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(/images/bg.png);
+  background: url(../images/bg.png);
   background-position: center;
   background-size: cover;
   padding-top: 10rem;
