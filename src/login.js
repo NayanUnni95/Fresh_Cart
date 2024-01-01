@@ -29,6 +29,6 @@ document.querySelector('.login').onclick = () => {
   } else if (emailValue != null && passValue === null) {
     passErr.classList.toggle('active');
   } else {
-    window.open('../index.html', '_self');
+    window.open('./home.html', '_self');
   }
 };

@@ -1,114 +1,86 @@
-import {product} from './src/data.js';
-const searchForm = document.querySelector('.search-form');
-const shoppingCart = document.querySelector('.shopping-cart');
-const loginForm = document.querySelector('.login-form');
-const menuBar = document.querySelector('.navbar');
-const bgColor = document.querySelector('.header');
+const userName = document.getElementById('name');
+const email = document.getElementById('email');
+const pass = document.getElementById('pass');
+const confirmPass = document.getElementById('c_pass');
+const nameErr = document.querySelector('.name');
+const emailErr = document.querySelector('.email');
+const passErr = document.querySelector('.pass');
 
-document.querySelector('#search-btn').onclick = () => {
-  shoppingCart.classList.remove('active');
-  loginForm.classList.remove('active');
-  menuBar.classList.remove('active');
-  bgColor.classList.remove('dark-mode');
-  searchForm.classList.toggle('active');
+// eslint-disable-next-line require-jsdoc
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+document.querySelector('#email').onclick = () => {
+  const value = userName.value || null;
+  if (!value) {
+    nameErr.classList.toggle('active');
+  } else if (value) {
+    nameErr.classList.toggle('.name');
+  }
 };
 
-document.querySelector('#cart-btn').onclick = () => {
-  loginForm.classList.remove('active');
-  menuBar.classList.remove('active');
-  bgColor.classList.remove('dark-mode');
-  searchForm.classList.remove('active');
-  shoppingCart.classList.toggle('active');
+document.querySelector('.passw').onclick = () => {
+  const isValid = validateEmail(email.value);
+  if (!isValid) {
+    emailErr.classList.toggle('active');
+  } else if (isValid) {
+    emailErr.classList.toggle('.email');
+  }
 };
 
-document.querySelector('#login-btn').onclick = () => {
-  shoppingCart.classList.remove('active');
-  menuBar.classList.remove('active');
-  bgColor.classList.remove('dark-mode');
-  searchForm.classList.remove('active');
-  shoppingCart.classList.remove('active');
-  loginForm.classList.toggle('active');
-};
-
-document.querySelector('#menu-btn').onclick = () => {
-  shoppingCart.classList.remove('active');
-  bgColor.classList.remove('dark-mode');
-  searchForm.classList.remove('active');
-  shoppingCart.classList.remove('active');
-  loginForm.classList.remove('active');
-  menuBar.classList.toggle('active');
-};
-
-document.querySelector('#color-btn').onclick = () => {
-  bgColor.classList.toggle('dark-mode');
-};
-
-// const email = document.getElementById('email');
-// const pass = document.getElementById('pass');
-
-// function check() {
-//   if (email.value == null && pass.value == null) {
-//     alert('Empty Input...');
-//   } else {
-//     console.log('Ok');
-//     email.value = '';
-//     pass.value = '';
-//   }
-// }
-// function print() {
-//   for (let i = 0; product.data[i] != null; i++) {
-//     for (let j = 0; product.data[i].type[j] != null; j++) {
-//       console.log(product.data[i].type[j]);
-//     }
-//   }
-// }
-
-(function load() {
-  const mDiv = document.getElementById('product-slider');
-
-  for (let i = 0; product.data[i] != null; i++) {
-    const h1 = document.createElement('h1');
-    h1.innerHTML = product.data[i].type[0].category;
-    mDiv.appendChild(h1);
-
-    const wrapper = document.createElement('div');
-    wrapper.classList.add('wrapper');
-    mDiv.appendChild(wrapper);
-
-    for (let j = 0; product.data[i].type[j] != null; j++) {
-      const box = document.createElement('div');
-      box.classList.add('box');
-      wrapper.appendChild(box);
-
-      const img = document.createElement('img');
-      img.src = product.data[i].type[j].img;
-      box.appendChild(img);
-
-      const name = document.createElement('h3');
-      box.appendChild(name);
-      name.innerHTML = product.data[i].type[j].name;
-
-      const price = document.createElement('div');
-      price.classList.add('price');
-      box.appendChild(price);
-      price.innerHTML = `Rs. ${product.data[i].type[j].price}.00 /-`;
-
-      const rate = document.createElement('div');
-      rate.classList.add('stars');
-      box.appendChild(rate);
-
-      for (let k = 0; k < product.data[i].type[j].rate; k++) {
-        const star = document.createElement('i');
-        star.classList.add('fas');
-        star.classList.add('fa-star');
-        rate.appendChild(star);
-      }
-
-      const cart = document.createElement('a');
-      cart.classList.add('btn');
-      box.appendChild(cart);
-      cart.innerHTML = 'add to cart';
+document.querySelector('#submit').onclick = () => {
+  const nameValue = userName.value || null;
+  const emailValue = email.value || null;
+  const passValue = pass.value || null;
+  const conPass = confirmPass.value || null;
+  if (nameValue && emailValue && passValue && conPass) {
+    if (passValue != conPass) {
+      passErr.classList.toggle('active');
+    } else if (passValue === conPass) {
+      passErr.classList.toggle('.pass');
+      window.open('./src/home.html', '_self');
+    }
+    localStorage.setItem('name', nameValue);
+    localStorage.setItem('email', emailValue);
+    localStorage.setItem('pass', passValue);
+    console.log('Login success 🎊');
+  } else if (!nameValue && !emailValue && !passValue && !conPass) {
+    // console.log(".");
+    nameErr.classList.toggle('active');
+    emailErr.classList.toggle('active');
+    passErr.classList.toggle('active');
+  } else if (nameValue && !emailValue && !passValue && !conPass) {
+    // console.log("..");
+    nameErr.classList.toggle('.name');
+    emailErr.classList.toggle('active');
+    passErr.classList.toggle('active');
+  } else if (!nameValue && emailValue && !passValue && !conPass) {
+    // log("...");
+    nameErr.classList.toggle('active');
+    emailErr.classList.toggle('.email');
+    passErr.classList.toggle('active');
+  } else if (nameValue && emailValue) {
+    // console.log("....");
+    nameErr.classList.toggle('.name');
+    emailErr.classList.toggle('.email');
+    console.log(`${passValue} ${conPass}`);
+    if (!passValue && !conPass) {
+      //   console.log("*");
+      passErr.classList.toggle('active');
+    } else if (!passValue || conPass) {
+      //   console.log("**");
+      passErr.classList.toggle('active');
     }
   }
-  console.log('Products loaded successfully ⛳');
-})();
+};
+
+window.onload = () => {
+  localStorage.setItem('name', '');
+  localStorage.setItem('email', '');
+  localStorage.setItem('pass', '');
+  localStorage.setItem('order', '');
+  localStorage.setItem('wishlist', '');
+  // localStorage.clear();
+};

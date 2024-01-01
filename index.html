@@ -3,202 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up...</title>
     <link
       rel="shortcut icon"
-      href="images/shopping-bag.png"
+      href="../images/shopping-bag.png"
       type="image/x-icon"
     />
-    <title>Fresh Cart</title>
-    <!-- custom css file -->
-
     <link rel="stylesheet" href="style.css" />
-    <!-- font awesome cdn link -->
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
-
-  <body>
-    <!-- header section starts-->
-
-    <header class="header">
-      <a href="#" class="logo"><i class="fas fa-shopping-bag"></i>Fresh Cart</a>
-
-      <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#features">features</a>
-        <a href="#products">products</a>
-        <!-- <a href="#category">category</a> -->
-        <!-- <a href="#review">review</a> -->
-        <!-- <a href="#blogs">blogs</a> -->
-        <!-- <div></div> -->
-        <a href="">wish list</a>
-        <a href="./src/login.html">profile</a>
-      </nav>
-
-      <div class="icons">
-        <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-bars" id="menu-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
-        <div class="fas fa-user" id="login-btn"></div>
-        <div class="fas fa-moon" id="color-btn"></div>
-      </div>
-
-      <form action="" class="search-form">
-        <input
-          type="search"
-          class="box"
-          id="search-box"
-          placeholder="Search here..."
-        />
-        <label for="search-box" class="fas fa-search"></label>
-      </form>
-
-      <div class="shopping-cart">
-        <div class="box">
-          <i class="fas fa-trash"></i>
-          <img src="./images/watermelon.jpeg" alt="loading" />
-          <div class="content">
-            <h3>Watermelon</h3>
-            <span class="price">₹ 199</span>
-            <span class="quantity">qty 1</span>
-          </div>
-        </div>
-        <div class="box">
-          <i class="fas fa-trash"></i>
-          <img src="./images/meat.jpeg" alt="loading" />
-          <div class="content">
-            <h3>Meat</h3>
-            <span class="price">₹ 199</span>
-            <span class="quantity">qty 1</span>
-          </div>
-        </div>
-        <div class="box">
-          <i class="fas fa-trash"></i>
-          <img src="./images/carrot.jpeg" alt="loading" />
-          <div class="content">
-            <h3>Carrot</h3>
-            <span class="price">₹ 199</span>
-            <span class="quantity">qty 1</span>
-          </div>
-        </div>
-        <div class="total">Total ₹ 499 /-</div>
-        <a href="#" class="btn">Checkout</a>
-      </div>
-
-      <!-- <form action="" class="login-form">
-        <h3>Login now</h3>
-        <input type="email" placeholder="Enter email" class="box" id="email" />
-        <input type="password" placeholder="password" class="box" id="pass" />
-        <p>
-          Forgotten your password ? <br /><a href="./src/login.html"
-            >click here</a
-          >
-        </p>
-        <p>
-          I don't have an account ? <br /><a href="./src/sign_up.html"
-            >Create now</a
-          >
-        </p>
-        <input
-          type="submit"
-          value="Login"
-          onclick="check()"
-          class="btn"
-          id="submit-btn"
-        />
-      </form> -->
-      <form action="" class="login-form">
-        <h3>Hello user</h3>
-        <img src="" alt="profile picture" />
-        <p>Manage account</p>
-        <p>your orders</p>
-        <p>your wishlist</p>
-        <input type="submit" value="logout" onclick="" class="btn" />
-      </form>
-    </header>
-    <!-- header section end -->
-
-    <!-- home section starts -->
-    <div class="about">
-      <section class="home" id="home">
-        <div class="content">
-          <h3>Discover the <span> fresh </span>and organic products</h3>
-          <p>
-            Nature's bounty, pure and true, in every bite of freshness, organic
-            bliss anew
-          </p>
-          <a href="#products" class="btn">shop now</a>
-        </div>
-      </section>
+  <body class="flex">
+    <div class="container flex">
+      <h3>create new account!</h3>
+      <input type="text" class="inp" placeholder="name" id="name" />
+      <div class="name error flex"><h4>Empty name</h4></div>
+      <input type="text" class="inp" placeholder="email" id="email" />
+      <div class="email error flex"><h4>Invalid Email</h4></div>
+      <input
+        type="password"
+        class="inp passw"
+        placeholder="password"
+        id="pass"
+      />
+      <input
+        type="password"
+        class="inp passw"
+        placeholder="confirm password"
+        id="c_pass"
+      />
+      <div class="pass error flex"><h4>password doesn't match</h4></div>
+      <button class="signup" id="submit" type="submit">sign up</button>
+      <a href="./src/home.html"><h5>not now?</h5></a>
     </div>
-
-    <!-- home section ends -->
-
-    <!-- features section starts -->
-
-    <section class="features" id="features">
-      <h1 class="heading">our <span>features</span></h1>
-
-      <div class="box-container">
-        <div class="box">
-          <!-- <img src="./images/img1.jpeg" alt="" /> -->
-          <h3>fresh and organic</h3>
-          <p>
-            selection of fresh and organic products tailored to meet your
-            discerning preferences
-          </p>
-          <a href="#" class="btn">read more</a>
-        </div>
-        <div class="box">
-          <!-- <img src="./images/img2.png" alt="" /> -->
-          <h3>free delivery</h3>
-          <p>
-            Enjoy the convenience of complimentary delivery, bringing quality to
-            your doorstep at no extra cost.
-          </p>
-          <a href="#" class="btn">read more</a>
-        </div>
-        <div class="box">
-          <!-- <img src="./images/" alt="" /> -->
-          <h3>easy payment</h3>
-          <p>
-            Simplify your transactions with our seamless payment options, making
-            shopping hassle-free and efficient.
-          </p>
-          <a href="#" class="btn">read more</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- features section ends -->
-
-    <!-- products section starts -->
-
-    <section class="products" id="products">
-      <h1 class="heading">our <span>products</span></h1>
-      <div class="product-slider" id="product-slider"></div>
-      <a href="#home"><div class="top-up">↑</div></a>
-    </section>
-    <!-- products section ends -->
-
-    <!-- footer section starts -->
-    <footer class="footer">
-      <a href="#home"><i class="fas fa-shopping-bag"></i></a>
-      <span>© 2024 Fresh Cart, Inc.</span>
-      <span>Terms</span>
-      <span>Privacy</span>
-      <span>Security</span>
-      <span>Contact</span>
-    </footer>
-    <!-- footer section ends -->
-
-    <!-- custom js file -->
-    <script type="module" src="script.js" defer></script>
+    <script src="./script.js"></script>
   </body>
 </html>
