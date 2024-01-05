@@ -77,10 +77,16 @@ document.querySelector('#submit').onclick = () => {
 };
 
 window.onload = () => {
-  localStorage.setItem('name', '');
-  localStorage.setItem('email', '');
-  localStorage.setItem('pass', '');
-  localStorage.setItem('order', '');
-  localStorage.setItem('wishlist', '');
-  // localStorage.clear();
+  const userName = localStorage.getItem('name');
+  const userPass = localStorage.getItem('pass');
+  if (userName && userPass) {
+    window.open('./src/home.html', '_self');
+  } else if (!userName && !userPass) {
+    localStorage.setItem('name', '');
+    localStorage.setItem('email', '');
+    localStorage.setItem('pass', '');
+    localStorage.setItem('order', '');
+    localStorage.setItem('wishlist', '');
+    // localStorage.clear();
+  }
 };
