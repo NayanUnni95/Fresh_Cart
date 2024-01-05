@@ -1,0 +1,49 @@
+{
+  "name": "Fresh cart",
+  "short_name": "F-Cart",
+  "version": "1.0.0",
+  "description": "Static shopping cart pwa",
+  "icons": [
+    {
+      "src": "./images/icon/bag16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icon/bag24x24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icon/bag32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icon/bag64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icon/bag128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icon/bag256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/icon/bag512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable",
+      "form_factor": "wide"
+    }
+  ],
+  "start_url": "./index.html",
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
+  "display": "standalone"
+}
