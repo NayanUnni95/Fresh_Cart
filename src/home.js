@@ -136,7 +136,7 @@ document.querySelector('#home-profile-btn').onclick = () => {
   }
 };
 
-document.querySelector('#logout').onclick = () =>{
+document.querySelector('#logout').onclick = () => {
   localStorage.clear();
-  window.open('./home.html', '_self');
+  window.open('./login.html', '_self');
 };
