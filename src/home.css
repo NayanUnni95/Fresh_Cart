@@ -345,6 +345,7 @@ a{
 }
 .products .product-slider .box {
   background: #fff;
+  /* width: 300rem; */
   border-radius: 1.5rem;
   text-align: center;
   padding: 2rem 3rem;
@@ -358,7 +359,9 @@ a{
   outline: var(--outline-hover);
 }
 .products .product-slider .box img {
-  height: 14rem;
+  width: 22rem;
+  height: 18rem;
+  /* height: 14rem; */
 }
 .products .product-slider .box img:hover {
   height: 16rem;
