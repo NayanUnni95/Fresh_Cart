@@ -130,9 +130,9 @@ document.querySelector('#home-profile-btn').onclick = () => {
   const userPass = localStorage.getItem('pass');
   if (!userName && !userPass) {
     // window.open("../index.html", "_self");
-    window.open('./login.html', '_self');
+    window.open('../login/login.html', '_self');
   } else {
-    window.open('./acc.html', '_self');
+    window.open('../account/acc.html', '_self');
   }
 };
 
