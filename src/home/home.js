@@ -1,4 +1,4 @@
-import {product} from './data.js';
+import {product} from '../data.js';
 const searchForm = document.querySelector('.search-form');
 const shoppingCart = document.querySelector('.shopping-cart');
 const loginForm = document.querySelector('.login-form');

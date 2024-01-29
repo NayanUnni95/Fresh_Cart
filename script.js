@@ -40,7 +40,7 @@ document.querySelector('#submit').onclick = () => {
       passErr.classList.toggle('active');
     } else if (passValue === conPass) {
       passErr.classList.toggle('.pass');
-      window.open('./src/home.html', '_self');
+      window.open('./src/home/home.html', '_self');
     }
     localStorage.setItem('name', nameValue);
     localStorage.setItem('email', emailValue);
@@ -80,7 +80,7 @@ window.onload = () => {
   const userName = localStorage.getItem('name');
   const userPass = localStorage.getItem('pass');
   if (userName && userPass) {
-    window.open('./src/home.html', '_self');
+    window.open('./src/home/home.html', '_self');
   } else if (!userName && !userPass) {
     localStorage.setItem('name', '');
     localStorage.setItem('email', '');

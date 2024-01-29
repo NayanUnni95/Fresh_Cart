@@ -38,7 +38,7 @@ html {
 body {
   background: #eee;
 }
-a{
+a {
   text-decoration: none;
 }
 .section {
@@ -270,7 +270,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../images/bg.png);
+  background: url(../../images/bg.png);
   background-position: center;
   background-size: cover;
   padding-top: 10rem;
