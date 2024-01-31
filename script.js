@@ -13,7 +13,7 @@ function validateEmail(email) {
 }
 
 document.querySelector('#email').onclick = () => {
-  const value = userName.value || null;
+  const value = userName.value ?? null;
   if (!value) {
     nameErr.classList.toggle('active');
   } else if (value) {
@@ -30,6 +30,14 @@ document.querySelector('.passw').onclick = () => {
   }
 };
 
+const setKey = (item, value) => {
+  localStorage.setItem(item, value);
+};
+
+const getKey = (item) => {
+  return localStorage.getItem(item);
+};
+
 document.querySelector('#submit').onclick = () => {
   const nameValue = userName.value || null;
   const emailValue = email.value || null;
@@ -42,51 +50,45 @@ document.querySelector('#submit').onclick = () => {
       passErr.classList.toggle('.pass');
       window.open('./src/home/home.html', '_self');
     }
-    localStorage.setItem('name', nameValue);
-    localStorage.setItem('email', emailValue);
-    localStorage.setItem('pass', passValue);
+    setKey('name', nameValue);
+    setKey('email', emailValue);
+    setKey('pass', passValue);
     console.log('Login success 🎊');
   } else if (!nameValue && !emailValue && !passValue && !conPass) {
-    // console.log(".");
     nameErr.classList.toggle('active');
     emailErr.classList.toggle('active');
     passErr.classList.toggle('active');
   } else if (nameValue && !emailValue && !passValue && !conPass) {
-    // console.log("..");
     nameErr.classList.toggle('.name');
     emailErr.classList.toggle('active');
     passErr.classList.toggle('active');
   } else if (!nameValue && emailValue && !passValue && !conPass) {
-    // log("...");
     nameErr.classList.toggle('active');
     emailErr.classList.toggle('.email');
     passErr.classList.toggle('active');
   } else if (nameValue && emailValue) {
-    // console.log("....");
     nameErr.classList.toggle('.name');
     emailErr.classList.toggle('.email');
     console.log(`${passValue} ${conPass}`);
     if (!passValue && !conPass) {
-      //   console.log("*");
       passErr.classList.toggle('active');
     } else if (!passValue || conPass) {
-      //   console.log("**");
       passErr.classList.toggle('active');
     }
   }
 };
 
 window.onload = () => {
-  const userName = localStorage.getItem('name');
-  const userPass = localStorage.getItem('pass');
+  const userName = getKey('name');
+  const userPass = getKey('pass');
   if (userName && userPass) {
     window.open('./src/home/home.html', '_self');
   } else if (!userName && !userPass) {
-    localStorage.setItem('name', '');
-    localStorage.setItem('email', '');
-    localStorage.setItem('pass', '');
-    localStorage.setItem('order', '');
-    localStorage.setItem('wishlist', '');
+    setKey('name', '');
+    setKey('email', '');
+    setKey('pass', '');
+    setKey('order', '');
+    setKey('wishlist', '');
     // localStorage.clear();
   }
 };
