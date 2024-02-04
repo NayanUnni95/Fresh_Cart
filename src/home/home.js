@@ -1,4 +1,3 @@
-import {product} from '../data.js';
 const searchForm = document.querySelector('.search-form');
 const shoppingCart = document.querySelector('.shopping-cart');
 const loginForm = document.querySelector('.login-form');
@@ -33,12 +32,8 @@ document.querySelector('#login-btn').onclick = () => {
   const userPass = localStorage.getItem('pass');
   if (!userName && !userPass) {
     loginForm.classList.toggle('active');
-    console.log('.');
-    // window.open('./login.html', '_self');
   } else {
     accForm.classList.toggle('active');
-    console.log('..');
-    // window.open('./acc.html', '_self');
   }
 };
 
@@ -55,85 +50,54 @@ document.querySelector('#color-btn').onclick = () => {
   bgColor.classList.toggle('dark-mode');
 };
 
-// const email = document.getElementById('email');
-// const pass = document.getElementById('pass');
-
-// function check() {
-//   if (email.value == null && pass.value == null) {
-//     alert('Empty Input...');
-//   } else {
-//     console.log('Ok');
-//     email.value = '';
-//     pass.value = '';
-//   }
-// }
-// function print() {
-//   for (let i = 0; product.data[i] != null; i++) {
-//     for (let j = 0; product.data[i].type[j] != null; j++) {
-//       console.log(product.data[i].type[j]);
-//     }
-//   }
-// }
-
 (function load() {
-  const mDiv = document.getElementById('product-slider');
+  const fruitDiv = document.querySelector('.fruit-wrapper');
+  const vegDiv = document.querySelector('.veg-wrapper');
+  const grainDiv = document.querySelector('.grain-wrapper');
+  const greenDiv = document.querySelector('.green-wrapper');
+  const nutDiv = document.querySelector('.nut-wrapper');
 
-  for (let i = 0; product.data[i] != null; i++) {
-    const h1 = document.createElement('h1');
-    h1.innerHTML = product.data[i].type[0].category;
-    mDiv.appendChild(h1);
-
-    const wrapper = document.createElement('div');
-    wrapper.classList.add('wrapper');
-    mDiv.appendChild(wrapper);
-
-    for (let j = 0; product.data[i].type[j] != null; j++) {
-      const box = document.createElement('div');
-      box.classList.add('box');
-      wrapper.appendChild(box);
-
-      const img = document.createElement('img');
-      img.src = product.data[i].type[j].img;
-      box.appendChild(img);
-
-      const name = document.createElement('h3');
-      box.appendChild(name);
-      name.innerHTML = product.data[i].type[j].name;
-
-      const price = document.createElement('div');
-      price.classList.add('price');
-      box.appendChild(price);
-      price.innerHTML = `Rs. ${product.data[i].type[j].price}.00 /-`;
-
-      const rate = document.createElement('div');
-      rate.classList.add('stars');
-      box.appendChild(rate);
-
-      for (let k = 0; k < product.data[i].type[j].rate; k++) {
-        const star = document.createElement('i');
-        star.classList.add('fas');
-        star.classList.add('fa-star');
-        rate.appendChild(star);
-      }
-
-      const cart = document.createElement('a');
-      cart.classList.add('btn');
-      box.appendChild(cart);
-      cart.innerHTML = 'add to cart';
+  const fetchAPI = async () => {
+    try {
+      const response = await fetch('../db/data.json');
+      const data = await response.json();
+      console.log(data);
+      data.forEach((element) => {
+        const tag =
+          `<div class="box">
+          <img src="${element.img}">
+          <h3>${element.name}</h3>
+          <div class="price">Rs ${element.price} /-</div>
+            <div class="stars">
+              <h3>Rating ${element.rate}</h3>
+            </div>
+          <a class="btn" href="">add to cart</a>
+        </div>`;
+        if (element.category === 'fruits') {
+          fruitDiv.insertAdjacentHTML('beforeend', tag);
+        } else if (element.category === 'Vegetables') {
+          vegDiv.insertAdjacentHTML('beforeend', tag);
+        } else if (element.category === 'grains') {
+          grainDiv.insertAdjacentHTML('beforeend', tag);
+        } else if (element.category === 'Greens') {
+          greenDiv.insertAdjacentHTML('beforeend', tag);
+        } else if (element.category === 'nuts') {
+          nutDiv.insertAdjacentHTML('beforeend', tag);
+        }
+      });
+    } catch (error) {
+      console.log(error);
     }
-  }
+  };
+  fetchAPI();
   console.log('Products loaded successfully ⛳');
 })();
 
 document.querySelector('#home-profile-btn').onclick = () => {
   const userName = localStorage.getItem('name');
   const userPass = localStorage.getItem('pass');
-  if (!userName && !userPass) {
-    // window.open("../index.html", "_self");
-    window.open('../login/login.html', '_self');
-  } else {
-    window.open('../account/acc.html', '_self');
-  }
+  if (!userName && !userPass) window.open('../login/login.html', '_self');
+  else window.open('../account/acc.html', '_self');
 };
 
 document.querySelector('#logout').onclick = () => {
