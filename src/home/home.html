@@ -27,7 +27,7 @@
   <body>
     <!-- header section starts-->
 
-    <header class="header">
+    <header class="header flex flex-item">
       <a href="./home.html" class="logo"
         ><i class="fas fa-shopping-bag"></i>Fresh Cart</a
       >
@@ -52,7 +52,7 @@
         <div class="fas fa-moon" id="color-btn"></div>
       </div>
 
-      <form action="" class="search-form">
+      <form action="" class="search-form flex flex-item">
         <input
           type="search"
           class="box"
@@ -97,8 +97,18 @@
 
       <form action="" class="login-form">
         <h3>Login now</h3>
-        <input type="email" placeholder="Enter email" class="box" id="email" />
-        <input type="password" placeholder="password" class="box" id="pass" />
+        <input
+          type="email"
+          placeholder="Enter email"
+          class="box flex"
+          id="email"
+        />
+        <input
+          type="password"
+          placeholder="password"
+          class="box flex"
+          id="pass"
+        />
         <p>
           Forgotten your password ? <br /><a href="../login/login.html"
             >click here</a
@@ -135,7 +145,7 @@
 
     <!-- home section starts -->
     <div class="about">
-      <section class="home" id="home">
+      <section class="home flex flex-item flex-content" id="home">
         <div class="content">
           <h3>Discover the <span> fresh </span>and organic products</h3>
           <p>
@@ -154,7 +164,7 @@
     <section class="features" id="features">
       <h1 class="heading">our <span>features</span></h1>
 
-      <div class="box-container">
+      <div class="box-container flex">
         <div class="box">
           <!-- <img src="../images/img1.jpeg" alt="" /> -->
           <h3>fresh and organic</h3>
@@ -192,18 +202,25 @@
     <section class="products" id="products">
       <h1 class="heading">our <span>products</span></h1>
       <div class="product-slider" id="product-slider">
-        <div class="wrapper fruit-wrapper"></div>
-        <div class="wrapper veg-wrapper"></div>
-        <div class="wrapper green-wrapper"></div>
-        <div class="wrapper grain-wrapper"></div>
-        <div class="wrapper nut-wrapper"></div>
+        <h1>Fruits</h1>
+        <div class="wrapper flex fruit-wrapper"></div>
+        <h1>Vegetables</h1>
+        <div class="wrapper flex veg-wrapper"></div>
+        <h1>Green</h1>
+        <div class="wrapper flex green-wrapper"></div>
+        <h1>Grain</h1>
+        <div class="wrapper flex grain-wrapper"></div>
+        <h1>Nuts</h1>
+        <div class="wrapper flex nut-wrapper"></div>
       </div>
-      <a href="#home"><div class="top-up">↑</div></a>
+      <a href="#home"
+        ><div class="top-up flex flex-item flex-content">↑</div></a
+      >
     </section>
     <!-- products section ends -->
 
     <!-- footer section starts -->
-    <footer class="footer">
+    <footer class="footer flex flex-item flex-content">
       <a href="#home"><i class="fas fa-shopping-bag"></i></a>
       <span>© 2024 Fresh Cart, Inc.</span>
       <span>Terms</span>
@@ -217,15 +234,3 @@
     <script type="module" src="./home.js" defer></script>
   </body>
 </html>
-
-<!-- <div class="wrapper">
-  <div class="box">
-    <img src="">
-    <h3></h3>
-    <div class="price"></div>
-    <div class="stars">
-      <h3></h3>
-      <a href="">add to cart</a>
-    </div>
-  </div>
-</div> -->

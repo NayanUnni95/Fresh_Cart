@@ -61,7 +61,7 @@ document.querySelector('#color-btn').onclick = () => {
     try {
       const response = await fetch('../db/data.json');
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       data.forEach((element) => {
         const tag =
           `<div class="box">

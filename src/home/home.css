@@ -41,13 +41,21 @@ body {
 a {
   text-decoration: none;
 }
+.flex {
+  display: flex;
+}
+.flex-item {
+  align-items: center;
+}
+.flex-content {
+  justify-content: center;
+}
 .section {
   padding: 2rem 9%;
 }
 .heading {
   text-align: center;
   padding-top: 3rem;
-  margin-bottom: 2rem;
   font-size: 2.5rem;
   color: var(--black);
 }
@@ -81,8 +89,6 @@ a {
   left: 0;
   right: 0;
   z-index: 1000;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 1rem 3%;
   background: var(--primary-bg);
@@ -136,8 +142,6 @@ a {
   background: #fff;
   border-radius: 0.5rem;
   overflow: hidden;
-  display: flex;
-  align-items: center;
 }
 .header .search-form.active {
   right: 2rem;
@@ -180,7 +184,6 @@ a {
   transition: 0.4s linear;
 }
 .header .shopping-cart .box {
-  display: flex;
   align-items: center;
   gap: 1rem;
   position: relative;
@@ -270,9 +273,6 @@ a {
   text-decoration: underline;
 }
 .home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: url(../../images/bg.png);
   background-position: center;
   background-size: cover;
@@ -297,20 +297,16 @@ a {
   padding: 1rem 0;
   line-height: 1.8;
 }
-.features .box-container {
-  display: flex;
-}
 .features .box-container .box {
   padding: 3rem 2rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-bottom: 2rem;
+  margin: 3rem 3rem 2rem;
   background: var(--primary-bg);
   outline: var(--outline);
   outline-offset: -1rem;
   text-align: center;
   float: left;
   box-shadow: var(--box-shadow);
+  border-radius: 2rem;
 }
 .features .box-container .box:hover {
   outline: var(--outline-hover);
@@ -339,8 +335,14 @@ a {
   font-size: 2.5rem;
 }
 .products .product-slider .wrapper {
-  display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.products .product-slider .wrapper::-webkit-scrollbar {
+  display: none;
+}
+.products .product-slider .nut-wrapper {
+  margin-bottom: 4rem;
 }
 .products .product-slider:first-child {
   margin-bottom: 2rem;
@@ -351,6 +353,8 @@ a {
   text-align: center;
   padding: 2rem 2rem;
   margin: 0.5rem;
+  height: 35rem;
+  margin-right: 3rem;
   outline-offset: -1rem;
   outline: var(--outline);
   box-shadow: var(--box-shadow);
@@ -360,8 +364,8 @@ a {
   outline: var(--outline-hover);
 } */
 .products .product-slider .box img {
-  width: 19rem;
-  height: 15rem;
+  width: 17rem;
+  height: 12rem;
 }
 /* .products .product-slider .box img:hover {
   height: 16rem;
@@ -384,9 +388,6 @@ a {
   width: 4rem;
   height: 5rem;
   font-size: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: fixed;
   right: 3rem;
   bottom: 3rem;
@@ -397,9 +398,6 @@ a {
 .footer {
   width: 100%;
   height: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: var(--primary-bg);
 }
 .footer a {
