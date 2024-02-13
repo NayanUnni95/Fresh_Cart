@@ -9,11 +9,7 @@
       type="image/x-icon"
     />
     <title>Fresh Cart</title>
-    <!-- custom css file -->
-
     <link rel="stylesheet" href="./home.css" />
-    <!-- font awesome cdn link -->
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -21,12 +17,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:wght@400;500;700&display=swap"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/tailChase.js"
+    ></script>
     <link rel="manifest" href="../manifest.json" />
   </head>
 
   <body>
-    <!-- header section starts-->
+    <div class="preloader">
+      <l-tail-chase size="45" speed="1.75" color="white"></l-tail-chase>
+    </div>
 
+    <!-- header section starts-->
     <header class="header flex flex-item">
       <a href="./home.html" class="logo"
         ><i class="fas fa-shopping-bag"></i>Fresh Cart</a

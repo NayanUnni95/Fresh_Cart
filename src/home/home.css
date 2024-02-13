@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:wght@400;500;700&display=swap");
 :root {
   --orange: #f36c2d;
   --banner-green: #1c9d3e;
@@ -93,6 +92,7 @@ a {
   padding: 1rem 3%;
   background: var(--primary-bg);
   box-shadow: var(--box-shadow);
+  display: none;
 }
 .header.active {
   background: #000000;
@@ -278,6 +278,7 @@ a {
   background-size: cover;
   padding-top: 10rem;
   padding-bottom: 5rem;
+  display: none;
 }
 .home .content {
   text-align: center;
@@ -296,6 +297,9 @@ a {
   font-weight: bolder;
   padding: 1rem 0;
   line-height: 1.8;
+}
+.features {
+  display: none;
 }
 .features .box-container .box {
   padding: 3rem 2rem;
@@ -326,6 +330,9 @@ a {
   line-height: 1.8;
   color: var(--light-color);
   padding: 1rem 0;
+}
+.products {
+  display: none;
 }
 .products .product-slider {
   padding: 1rem;
@@ -399,6 +406,7 @@ a {
   width: 100%;
   height: 5rem;
   background-color: var(--primary-bg);
+  display: none;
 }
 .footer a {
   font-size: 2rem;
@@ -407,6 +415,14 @@ a {
 .footer span {
   margin: 1rem;
   color: var(--primary-fg);
+}
+.preloader{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
 }
 /* media queries */
 

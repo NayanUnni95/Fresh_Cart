@@ -104,3 +104,21 @@ document.querySelector('#logout').onclick = () => {
   localStorage.clear();
   window.open('./login.html', '_self');
 };
+
+const preloader = document.querySelector('.preloader');
+const header = document.querySelector('.header');
+const home = document.querySelector('.home');
+const feature = document.querySelector('.features');
+const product = document.querySelector('.products');
+const footer = document.querySelector('.footer');
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    preloader.style.display = 'none';
+    header.style.display = 'flex';
+    home.style.display = 'flex';
+    feature.style.display = 'block';
+    product.style.display = 'block';
+    footer.style.display = 'flex';
+  }, 1000);
+})
