@@ -24,6 +24,9 @@ img {
   align-items: center;
   justify-content: center;
 }
+.flex-content {
+  justify-content: flex-start;
+}
 .container {
   border-radius: 1rem;
   padding: 3rem 2rem 3rem 2rem;
@@ -43,9 +46,20 @@ img {
 }
 .container .data {
   flex-direction: column;
+  display: none;
+}
+.container .data.active {
+  flex-direction: column;
+  display: block;
 }
 .container .data h5 {
   margin: 0.5rem;
+  color: rgb(78, 78, 78);
+}
+.back {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
 }
 @media (max-width: 450px) {
   .container {

@@ -92,3 +92,7 @@ window.onload = () => {
     // localStorage.clear();
   }
 };
+
+document.querySelector('.back').addEventListener('click', () => {
+  window.history.back();
+});

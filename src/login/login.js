@@ -32,3 +32,7 @@ document.querySelector('.login').onclick = () => {
     window.open('./home.html', '_self');
   }
 };
+
+document.querySelector('.back').addEventListener('click', () => {
+  window.history.back();
+})

@@ -25,7 +25,7 @@
       type="module"
       src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/tailChase.js"
     ></script>
-    <link rel="manifest" href="../manifest.json" />
+    <link rel="manifest" href="../../manifest.json" />
   </head>
 
   <body>
@@ -135,7 +135,7 @@
         />
       </form>
       <form action="" class="acc-form">
-        <h3>Hello user</h3>
+        <h2 id="user_name">Hello user</h2>
         <p><a href="../account/acc.html">Manage account</a></p>
         <p>your orders</p>
         <p>your wishlist</p>
@@ -221,8 +221,9 @@
         <div class="wrapper flex nut-wrapper"></div>
       </div>
       <a href="#home"
-        ><div class="top-up flex flex-item flex-content">↑</div></a
-      >
+        ><div class="top-up flex flex-item flex-content">
+          <i class="fa-solid fa-arrow-up-long fa-2xs"></i></div
+      ></a>
     </section>
     <!-- products section ends -->
 
@@ -238,6 +239,7 @@
     <!-- footer section ends -->
 
     <!-- custom js file -->
-    <script type="module" src="./home.js" defer></script>
+    <script src="./home.js" defer></script>
+    <script src="./preloader.js"></script>
   </body>
 </html>

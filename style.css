@@ -85,6 +85,11 @@ button {
   font-size: 0.7rem;
   color: var(--light-color);
 }
+.back {
+  position: relative;
+  top: -1.5rem;
+  left: -9rem;
+}
 @media (max-width: 450px) {
   .container {
     width: 100%;
@@ -99,5 +104,10 @@ button {
     width: 16rem;
     height: 2.5rem;
     border-radius: 0.5rem;
+  }
+  .back {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
   }
 }

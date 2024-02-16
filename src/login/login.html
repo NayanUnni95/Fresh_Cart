@@ -9,11 +9,21 @@
       href="../../images/icon/bag16x16.png"
       type="image/x-icon"
     />
-    <link rel="manifest" href="../manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="manifest" href="../../manifest.json" />
     <link rel="stylesheet" href="login.css" />
   </head>
   <body class="flex">
     <div class="container flex">
+      <span class="back">
+        <i class="fa-solid fa-arrow-left-long fa-lg"></i>
+      </span>
       <h3>Welcome Back!</h3>
       <input type="text" class="inp" placeholder="email" id="email" />
       <div class="email error flex"><h4>Invalid Email</h4></div>
@@ -29,7 +39,7 @@
         <img src="../../images/facebook.png" alt="" />log in with facebook
       </button>
       <a href="../../index.html">create new account?</a>
-      <script src="./action.js"></script>
+      <script src="./login.js"></script>
     </div>
   </body>
 </html>
