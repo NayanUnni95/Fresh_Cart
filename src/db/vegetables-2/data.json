@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Tomato | നാടൻ തക്കാളി",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(7)2.jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Nadan Payar / പയർ Cowpea",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/payar1.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Jackfruit raw | പച്ച ചക്ക",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(6).jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Chemb / ചേമ്പ്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images3.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Koorkka | Chinese Potato | കൂർക്ക",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/1_5_28.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Raw Banana | പച്ച ഏത്തക്കായ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/ban12.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Kanthari mulaku / കാന്താരി മുളക്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/49F3C295-7A8D-4819-9B4B-BC7700902D3B.jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "podi chemb | colocasia | ചേമ്പ്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(3)4.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Banana Flower / വാഴ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/bananaflower.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Ash gourd | Kumbalanga",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/kumbalam----jpg_1200x9001.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Mango / Pacha Manga / പച്ച മാങ്ങ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/raw-mango-wholesaler-in-ahmedabad-500x500.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Bottle Guard | churakaka | ചുരക്ക",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/bottle_garud_151.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Pumpkin | mathanga | മത്തങ്ങ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/download.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Vendakka | Ladies finger | വെണ്ടയ്ക്ക",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/bhindi_600x6001.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Pavakka | പാവയ്ക്കാ | Bitter gourd",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/karela-500x500.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Padavalam | Snake gourd | പടവലം",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/BB74F2E7-40E9-4762-8F83-3474927627F7.jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Ginger / ഇഞ്ചി",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/ginger1.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Purple Brinjal / കത്രിക്ക",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/download_(1).webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "kovakka | കോവക്ക | ivy gourd",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/1563544105-ivy_gourd.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Unda Mulak | ഉണ്ട മുളക് | chilli",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/715339041364_10882890.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Cluster Beans / കൊത്തമര/ അമര പയർ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/61+r2YSpHcL.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Peechinga / പീച്ചിങ്ങ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/peechinga.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Spring onion",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/IMG-20210930-WA00891.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Leek leaves",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(2)3.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Celery leaves",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(1)4.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Sambar Vellari ( 600-900kg) | വെള്ളരി",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(14).jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Lemon | ചെറുനാരങ്ങ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/B65F284A-AE82-4FCB-A82F-C4BAD1C1D961.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Curry lemon / കറി നാരങ്ങ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/62045930-9201-4F5C-A826-E540028339B8.jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Tapioca | കപ്പ | Kappa",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/DyC13TAVsAAyZuP.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Coconut | തേങ്ങ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/15213161.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "vazhuthina - brinjal / വഴുതിന",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/download_(3).jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Yellow capsicum",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(5)1.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Red Capsicum",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(4)1.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Pudina leaves | mint | പുതിന ഇല",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/pudina.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Capsicum Green",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/caps.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Green chilli | പച്ച മുളക്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/green-chilli-2-500x5001.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Butter Beans ( green ) | ബീൻസ്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/Beans-Haricot.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Beans | ബീൻസ്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/beans1.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Coriander Leaves | മല്ലി ഇല",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/corainder-759-thinkstock.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Cauliflower ( 400g - 600 g ) | കോളി ഫ്‌ളവർ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/steadycauliflower-steadycauliflower-image-12890-steady.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Drum stick | മുരിങ്ങ കോൽ",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/GRO-VEG-UNB-DRUMSTICK-4-stk..webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Beetroot | ബീറ്റ്റൂട്ട്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/Beetroot1-800x800_700x700.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Carrot | ക്യാരറ്റ്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/img-carrot.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Cabbage | കാബേജ്",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(8).jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Potato | ഉരുള കിഴങ്ങ് | Munnar",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/4244C799-8D34-484E-85BE-7C086603B048.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Big Onion | savala | സവാള",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/A306F2C0-C1BB-4F99-BC66-04947AC8EB691.jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Salad Cucumber | സാലഡ് വെള്ളരി",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/salad.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Curry leaves | കറിവേപ്പില",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/cooking-with-curry-leaves-1024x684.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Small Onion | ഉള്ളി",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/1676449226_63ec95ca1de0e_9.webp",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Chena / ചേന / Elephant Yam",
+    "category": "vegetables-2",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/F88F4B86-F093-413A-96D5-102D78FAF11A.jpeg",
+    "price": 50,
+    "rate": 1
+  }
+]

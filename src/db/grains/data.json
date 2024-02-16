@@ -1,0 +1,42 @@
+[
+  {
+    "name": "red poha",
+    "category": "grains",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/redpoha_300x.jpg?v=1697361268",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "wheat dalia",
+    "category": "grains",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/dalia_300x.jpg?v=1697361737",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "samak rice",
+    "category": "grains",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/samak_300x.jpg?v=1697426579",
+    "price": 50,
+    "rate": 2
+  },
+  {
+    "name": "sabudana",
+    "category": "grains",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/sabudana_300x.jpg?v=1697426657",
+    "price": 50,
+    "rate": 3
+  },
+  {
+    "name": "Dry fruit Jaggery whole",
+    "category": "grains",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/gur_f30c929c-2ce4-47c7-b4dc-a5270db1d49f_300x.jpg?v=1698114530",
+    "price": 50,
+    "rate": 4
+  }
+]

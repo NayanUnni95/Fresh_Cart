@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Pomegranate",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/6_Pomegranate_400g_2db9be0c-845a-4ad8-ac34-b56c0e5ac2ad_720x.jpg?v=1659422275",
+    "price": 195,
+    "rate": 1
+  },
+  {
+    "name": "Banana-Waynard",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/2_Banana_Waynard_300g_300x.png?v=1659420662",
+    "price": 128,
+    "rate": 1
+  },
+  {
+    "name": "Apples Red",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/apples_300x.jpg?v=1677889026",
+    "price": 190,
+    "rate": 2
+  },
+  {
+    "name": "Grapes Green",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/greengrapes_300x.jpg?v=1675908368",
+    "price": 195,
+    "rate": 3
+  },
+  {
+    "name": "Mango Imampasand app",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/alphonso_300x.jpg?v=1679623712",
+    "price": 549,
+    "rate": 4
+  },
+  {
+    "name": "Rambutan",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/8_Rambutan_400g_300x.jpg?v=1659420669",
+    "price": 350,
+    "rate": 5
+  },
+  {
+    "name": "Peaches",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/2_Peaches_500g_300x.jpg?v=1659420665",
+    "price": 190,
+    "rate": 5
+  },
+  {
+    "name": "Mango Chausa",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/dasheri_20aecaaf-4535-4043-97a3-69b6287e44ef_300x.jpg?v=1687189670",
+    "price": 320,
+    "rate": 5
+  },
+  {
+    "name": "Melon Kajri",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/kajrimelon_300x.jpg?v=1682475517",
+    "price": 120,
+    "rate": 5
+  },
+  {
+    "name": "Pomegranate Kernel",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/anarkernel_300x.jpg?v=1683041533",
+    "price": 199,
+    "rate": 5
+  },
+  {
+    "name": "Apricot",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/apricot_300x.jpg?v=1684341832",
+    "price": 350,
+    "rate": 5
+  },
+  {
+    "name": "Litchi",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/litchi_300x.jpg?v=1684720805",
+    "price": 185,
+    "rate": 5
+  },
+  {
+    "name": "Jamun",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/jamun_300x.jpg?v=1688093582",
+    "price": 320,
+    "rate": 5
+  },
+  {
+    "name": "Mangosteen",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/mangosteen_300x.jpg?v=1694706594",
+    "price": "1,150",
+    "rate": 5
+  },
+  {
+    "name": "Kinnow",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/kinnow_300x.jpg?v=1700190132",
+    "price": 129,
+    "rate": 5
+  },
+  {
+    "name": "Rasbhari",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/rasbhari_300x.jpg?v=1701744021",
+    "price": 190,
+    "rate": 5
+  },
+  {
+    "name": "Grapes Red Flame",
+    "category": "fruits",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/grapes_300x.jpg?v=1703205531",
+    "price": 260,
+    "rate": 5
+  }
+]

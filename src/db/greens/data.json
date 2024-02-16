@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Baby Spinach",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/44_Baby_Spinach_720x.jpg?v=1659420737",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Mix Salad",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/47_Mix_Salad_150g_720x.jpg?v=1659420742",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Avocado 1 Piece app",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/avocado_720x.jpg?v=1687708793",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Green Lettuce",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/46_Green_Lettuce_150g_720x.jpg?v=1659420741",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Spring Onion",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/springonion_300x.jpg?v=1667701479",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Kale Leaves",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/Kale_300x.jpg?v=1667701415",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Mix Lettuce Leaves",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/45_Mix_Lettuce_720x.jpg?v=1659420739",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Basil Fresh",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/basil_300x.jpg?v=1696570861",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Parsley Fresh",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/parsley_300x.jpg?v=1696570788",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Rocket Leaves",
+    "category": "Greens",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/files/Rocket_300x.jpg?v=1700622227",
+    "price": 50,
+    "rate": 1
+  }
+]

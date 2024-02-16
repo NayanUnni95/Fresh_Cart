@@ -1,0 +1,106 @@
+[
+  {
+    "name": "cleaned koorkka",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(25).jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "papaya cube cut",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images6.jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "bendakka thoran cut",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(27).jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "red cheera chooped",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/Picsart_24-01-27_22-20-31-651.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "avial cut mix",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/dl3bzfqb2epx1yzgut05_(1)1.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "peeled small onion",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(24).jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "snake gourd cut",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(21).jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "bannana flower chopped",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/Picsart_24-01-27_21-57-30-215.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "cowpea chopped ",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/Long_beans_cut.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "beetroot chopped",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(18)2.jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "carrot chopped ",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/images_(17)2.jpeg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "cabage thoran cut",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/Cabbage_cuts.jpg",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "sambar cut mix",
+    "category": "fresh cuts",
+    "qty": 1,
+    "img": "https://findfresh.in/attachments/shop_images/s3qzeznko93sutlzisb02.jpg",
+    "price": 50,
+    "rate": 1
+  }
+]

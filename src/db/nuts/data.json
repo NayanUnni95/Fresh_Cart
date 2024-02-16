@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Walnut",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/walnut_720x.webp?v=1660318032",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "California Almond",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/almond_4f465ee5-db14-47c4-b4d7-847496c4e3ad_720x.webp?v=1660317956",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "White Sesame Seeds",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/sesameseed_720x.webp?v=1660317571",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Figs ",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/figs_720x.webp?v=1660318164",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Raw Pumpkin Seeds",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/pumseeds_720x.webp?v=1660317042",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Raw Sunflower Seeds",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/sunseeds_720x.webp?v=1660317417",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Munakka",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/munakka_720x.webp?v=1660318508",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Pistachio Salted",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/pistasalted_720x.webp?v=1660318573",
+    "price": 50,
+    "rate": 1
+  },
+  {
+    "name": "Cashew",
+    "category": "nuts",
+    "qty": 1,
+    "img": "https://liveorganic.co.in/cdn/shop/products/cashew_300x.webp?v=1660318103",
+    "price": 50,
+    "rate": 1
+  }
+]
