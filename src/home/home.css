@@ -37,6 +37,9 @@ html {
 body {
   background: #eee;
 }
+body.active {
+  background: #000;
+}
 a {
   text-decoration: none;
 }
@@ -360,7 +363,7 @@ a {
   margin-bottom: 2rem;
 }
 .products .product-slider .box {
-  background: #fff;
+  background-color: #fff;
   border-radius: 1.5rem;
   text-align: center;
   padding: 2rem 2rem;
@@ -371,6 +374,9 @@ a {
   outline: var(--outline);
   box-shadow: var(--box-shadow);
 }
+.products .product-slider .box.active {
+  background-color: var(--black);
+}
 /* .products .product-slider .box:hover {
   outline-offset: 0rem;
   outline: var(--outline-hover);
@@ -378,6 +384,7 @@ a {
 .products .product-slider .box img {
   width: 17rem;
   height: 12rem;
+  border-radius: 1rem;
 }
 /* .products .product-slider .box img:hover {
   height: 16rem;

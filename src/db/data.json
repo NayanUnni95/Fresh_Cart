@@ -8,7 +8,7 @@
     "rate": 1
   },
   {
-    "name": "Banana-Waynard",
+    "name": "Banana",
     "category": "fruits",
     "qty": 1,
     "img": "https://liveorganic.co.in/cdn/shop/products/2_Banana_Waynard_300g_300x.png?v=1659420662",
@@ -32,7 +32,7 @@
     "rate": 3
   },
   {
-    "name": "Mango Imampasand app",
+    "name": "Mango",
     "category": "fruits",
     "qty": 1,
     "img": "https://liveorganic.co.in/cdn/shop/products/alphonso_300x.jpg?v=1679623712",
@@ -56,7 +56,7 @@
     "rate": 5
   },
   {
-    "name": "Mango Chausa",
+    "name": "Mango",
     "category": "fruits",
     "qty": 1,
     "img": "https://liveorganic.co.in/cdn/shop/files/dasheri_20aecaaf-4535-4043-97a3-69b6287e44ef_300x.jpg?v=1687189670",
@@ -64,7 +64,7 @@
     "rate": 5
   },
   {
-    "name": "Melon Kajri",
+    "name": "Melon",
     "category": "fruits",
     "qty": 1,
     "img": "https://liveorganic.co.in/cdn/shop/files/kajrimelon_300x.jpg?v=1682475517",
@@ -417,7 +417,7 @@
     "rate": 3
   },
   {
-    "name": "Dry fruit Jaggery whole",
+    "name": "Dry fruit",
     "category": "grains",
     "qty": 1,
     "img": "https://liveorganic.co.in/cdn/shop/files/gur_f30c929c-2ce4-47c7-b4dc-a5270db1d49f_300x.jpg?v=1698114530",
@@ -441,7 +441,7 @@
     "rate": 1
   },
   {
-    "name": "Avocado 1 Piece app",
+    "name": "Avocado",
     "category": "Greens",
     "qty": 1,
     "img": "https://liveorganic.co.in/cdn/shop/files/avocado_720x.jpg?v=1687708793",

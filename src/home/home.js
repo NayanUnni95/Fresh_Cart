@@ -50,6 +50,8 @@ document.querySelector('#menu-btn').onclick = () => {
 
 document.querySelector('#color-btn').onclick = () => {
   bgColor.classList.toggle('dark-mode');
+  document.querySelector('body').classList.toggle('active');
+  document.querySelector('.box').classList.toggle('active');
 };
 
 (function load() {
@@ -58,12 +60,16 @@ document.querySelector('#color-btn').onclick = () => {
   const grainDiv = document.querySelector('.grain-wrapper');
   const greenDiv = document.querySelector('.green-wrapper');
   const nutDiv = document.querySelector('.nut-wrapper');
+  const freshCutDiv = document.querySelector('.cut-wrapper');
+  const productDiv = document.querySelector('.product-wrapper');
+  const veg2Div = document.querySelector('.veg2-wrapper');
 
   const fetchAPI = async () => {
     try {
       const response = await fetch('../db/data.json');
       const data = await response.json();
       // console.log(data);
+      let count1 = count2 = count3 = count4 = count5 = count6 = count7 = count8 = 0;
       data.forEach((element) => {
         const tag =
           `<div class="box">
@@ -75,16 +81,30 @@ document.querySelector('#color-btn').onclick = () => {
             </div>
           <a class="btn" href="">add to cart</a>
         </div>`;
-        if (element.category === 'fruits') {
+        if (element.category === 'fruits' && count1 < 5) {
+          count1++;
           fruitDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'Vegetables') {
+        } else if (element.category === 'Vegetables' && count2 < 5) {
+          count2++;
           vegDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'grains') {
+        } else if (element.category === 'grains' && count3 < 5) {
+          count3++;
           grainDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'Greens') {
+        } else if (element.category === 'Greens' && count4 < 5) {
+          count4++;
           greenDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'nuts') {
+        } else if (element.category === 'nuts' && count5 < 5) {
+          count5++;
           nutDiv.insertAdjacentHTML('beforeend', tag);
+        } else if (element.category === 'fresh cuts' && count6 < 5) {
+          count6++;
+          freshCutDiv.insertAdjacentHTML('beforeend', tag);
+        } else if (element.category === 'product' && count7 < 5) {
+          count7++;
+          productDiv.insertAdjacentHTML('beforeend', tag);
+        } else if (element.category === 'vegetables-2' && count8 < 5) {
+          count8++;
+          veg2Div.insertAdjacentHTML('beforeend', tag);
         }
       });
     } catch (error) {

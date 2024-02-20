@@ -4,17 +4,23 @@
 
 ### 1. Open the terminal and navigate to your project folder
 
-```$ cd path/Fresh_Cart```
+```bash
+cd path/Fresh_Cart
+```
 
 ### 2. Use npm to install the dependencies
 
-```$ npm install & npm i```
+```bash
+npm install & npm i
+```
 
 ### 3. Run the project
 
 #### Use `npm run start` for a local build. View the application in your browser with the URL `http://localhost:3000`
 
-```npm run start```
+```bash
+npm run start
+```
 
 ## Live Preview :point_down:
 
