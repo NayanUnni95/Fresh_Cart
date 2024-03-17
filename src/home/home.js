@@ -53,7 +53,6 @@ document.querySelector('#color-btn').onclick = () => {
   document.querySelector('body').classList.toggle('active');
   document.querySelector('.box').classList.toggle('active');
 };
-
 (function load() {
   const fruitDiv = document.querySelector('.fruit-wrapper');
   const vegDiv = document.querySelector('.veg-wrapper');
@@ -69,10 +68,8 @@ document.querySelector('#color-btn').onclick = () => {
       const response = await fetch('../db/data.json');
       const data = await response.json();
       // console.log(data);
-      let count1 = count2 = count3 = count4 = count5 = count6 = count7 = count8 = 0;
       data.forEach((element) => {
-        const tag =
-          `<div class="box">
+        const tag = `<div class="box">
           <img src="${element.img}">
           <h3>${element.name}</h3>
           <div class="price">Rs ${element.price} /-</div>
@@ -81,29 +78,21 @@ document.querySelector('#color-btn').onclick = () => {
             </div>
           <a class="btn" href="">add to cart</a>
         </div>`;
-        if (element.category === 'fruits' && count1 < 5) {
-          count1++;
+        if (element.category === 'fruits') {
           fruitDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'Vegetables' && count2 < 5) {
-          count2++;
+        } else if (element.category === 'Vegetables') {
           vegDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'grains' && count3 < 5) {
-          count3++;
+        } else if (element.category === 'grains') {
           grainDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'Greens' && count4 < 5) {
-          count4++;
+        } else if (element.category === 'Greens') {
           greenDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'nuts' && count5 < 5) {
-          count5++;
+        } else if (element.category === 'nuts') {
           nutDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'fresh cuts' && count6 < 5) {
-          count6++;
+        } else if (element.category === 'fresh cuts') {
           freshCutDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'product' && count7 < 5) {
-          count7++;
+        } else if (element.category === 'product') {
           productDiv.insertAdjacentHTML('beforeend', tag);
-        } else if (element.category === 'vegetables-2' && count8 < 5) {
-          count8++;
+        } else if (element.category === 'vegetables-2') {
           veg2Div.insertAdjacentHTML('beforeend', tag);
         }
       });

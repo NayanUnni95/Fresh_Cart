@@ -24,20 +24,20 @@ const data = [
   './images/icon/bag128x128.png',
   './images/icon/bag256x256.png',
   './images/icon/bag512x512.png',
-]
+];
 self.addEventListener('install', (e) => {
   // console.log("service worker changed");
   // console.log("service worked updated");
   e.waitUntil(
     caches.open('static').then((cache) => {
       return cache.addAll(data);
-    }),
+    })
   );
 });
 self.addEventListener('fetch', (e) => {
   e.respondWith(
     caches.match(e.request).then((response) => {
       return response || fetch(e.request);
-    }),
+    })
   );
 });
