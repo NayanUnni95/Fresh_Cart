@@ -24,4 +24,4 @@ npm run start
 
 ## Live Preview :point_down:
 
-### :flags: [Fresh Cart](https://nayanunni95.github.io/Fresh_Cart/)
+### :flags: [Fresh Cart](https://freshcart-swart.vercel.app/)
