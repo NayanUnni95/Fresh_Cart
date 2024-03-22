@@ -10,5 +10,5 @@ if ('serviceWorker' in navigator) {
       console.log(error);
     });
 } else {
-  alert('service worker not working');
+  console.log('service worker not working');
 }

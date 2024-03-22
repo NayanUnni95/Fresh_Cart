@@ -25,9 +25,25 @@
         <i class="fa-solid fa-arrow-left-long fa-lg"></i>
       </span>
       <h3>Welcome Back!</h3>
-      <input type="text" class="inp" placeholder="email" id="email" />
+      <input
+        type="text"
+        class="inp"
+        id="email"
+        placeholder="email"
+        pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
+        title="must be a valid email address"
+        required
+      />
       <div class="email error flex"><h4>Invalid Email</h4></div>
-      <input type="text" class="inp" placeholder="password" id="pass" />
+      <input
+        type="text"
+        class="inp"
+        id="pass"
+        placeholder="password"
+        pattern="[a-zA-Z0-9]{8,}"
+        title="Must be at least 8 characters"
+        required
+      />
       <div class="pass error flex"><h4>Enter password</h4></div>
       <a href="">Forget Password?</a>
       <button class="login" id="submit" type="submit">log in</button>

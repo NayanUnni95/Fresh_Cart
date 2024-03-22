@@ -681,7 +681,8 @@
     "rate": 1
   },
   {
-    "name": "Tomato | നാടൻ തക്കാളി",
+    "name": "Tomato",
+    "malName": "നാടൻ തക്കാളി",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/images_(7)2.jpeg",
@@ -689,7 +690,8 @@
     "rate": 1
   },
   {
-    "name": "Nadan Payar / പയർ Cowpea",
+    "name": "Cowpea",
+    "malName": "പയർ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/payar1.jpg",
@@ -697,7 +699,8 @@
     "rate": 1
   },
   {
-    "name": "Jackfruit raw | പച്ച ചക്ക",
+    "name": "Jackfruit raw",
+    "malName": "പച്ച ചക്ക",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/images_(6).jpg",
@@ -705,7 +708,8 @@
     "rate": 1
   },
   {
-    "name": "Chemb / ചേമ്പ്",
+    "name": "Chemb",
+    "malName": "ചേമ്പ്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/images3.webp",
@@ -713,7 +717,8 @@
     "rate": 1
   },
   {
-    "name": "Koorkka | Chinese Potato | കൂർക്ക",
+    "name": "Chinese Potato ",
+    "malName": "കൂർക്ക",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/1_5_28.webp",
@@ -721,7 +726,8 @@
     "rate": 1
   },
   {
-    "name": "Raw Banana | പച്ച ഏത്തക്കായ",
+    "name": "Raw Banana",
+    "malName": "പച്ച ഏത്തക്കായ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/ban12.jpg",
@@ -729,7 +735,8 @@
     "rate": 1
   },
   {
-    "name": "Kanthari mulaku / കാന്താരി മുളക്",
+    "name": "Kanthari mulaku",
+    "malName": "കാന്താരി മുളക്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/49F3C295-7A8D-4819-9B4B-BC7700902D3B.jpeg",
@@ -737,7 +744,8 @@
     "rate": 1
   },
   {
-    "name": "podi chemb | colocasia | ചേമ്പ്",
+    "name": "colocasia",
+    "malName": "ചേമ്പ്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/images_(3)4.webp",
@@ -745,7 +753,8 @@
     "rate": 1
   },
   {
-    "name": "Banana Flower / വാഴ",
+    "name": "Banana Flower",
+    "malName": "വാഴ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/bananaflower.jpg",
@@ -754,6 +763,7 @@
   },
   {
     "name": "Ash gourd | Kumbalanga",
+    "malName": "",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/kumbalam----jpg_1200x9001.jpg",
@@ -761,7 +771,8 @@
     "rate": 1
   },
   {
-    "name": "Mango / Pacha Manga / പച്ച മാങ്ങ",
+    "name": "Mango",
+    "malName": "പച്ച മാങ്ങ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/raw-mango-wholesaler-in-ahmedabad-500x500.jpg",
@@ -769,7 +780,8 @@
     "rate": 1
   },
   {
-    "name": "Bottle Guard | churakaka | ചുരക്ക",
+    "name": "Bottle Guard",
+    "malName": "ചുരക്ക",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/bottle_garud_151.jpg",
@@ -777,7 +789,8 @@
     "rate": 1
   },
   {
-    "name": "Pumpkin | mathanga | മത്തങ്ങ",
+    "name": "Pumpkin",
+    "malName": "മത്തങ്ങ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/download.jpg",
@@ -785,7 +798,8 @@
     "rate": 1
   },
   {
-    "name": "Vendakka | Ladies finger | വെണ്ടയ്ക്ക",
+    "name": "Ladies finger ",
+    "malName": "വെണ്ടയ്ക്ക",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/bhindi_600x6001.jpg",
@@ -793,7 +807,8 @@
     "rate": 1
   },
   {
-    "name": "Pavakka | പാവയ്ക്കാ | Bitter gourd",
+    "name": "Bitter gourd",
+    "malName": "പാവയ്ക്കാ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/karela-500x500.jpg",
@@ -801,7 +816,8 @@
     "rate": 1
   },
   {
-    "name": "Padavalam | Snake gourd | പടവലം",
+    "name": "Snake gourd",
+    "malName": "പടവലം",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/BB74F2E7-40E9-4762-8F83-3474927627F7.jpeg",
@@ -809,7 +825,8 @@
     "rate": 1
   },
   {
-    "name": "Ginger / ഇഞ്ചി",
+    "name": "Ginger",
+    "malName": "ഇഞ്ചി",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/ginger1.webp",
@@ -817,7 +834,8 @@
     "rate": 1
   },
   {
-    "name": "Purple Brinjal / കത്രിക്ക",
+    "name": "Purple Brinjal",
+    "malName": "കത്രിക്ക",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/download_(1).webp",
@@ -825,7 +843,8 @@
     "rate": 1
   },
   {
-    "name": "kovakka | കോവക്ക | ivy gourd",
+    "name": "ivy gourd",
+    "malName": "കോവക്ക",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/1563544105-ivy_gourd.jpg",
@@ -833,7 +852,8 @@
     "rate": 1
   },
   {
-    "name": "Unda Mulak | ഉണ്ട മുളക് | chilli",
+    "name": "chilli",
+    "malName": "ഉണ്ട മുളക്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/715339041364_10882890.webp",
@@ -841,7 +861,8 @@
     "rate": 1
   },
   {
-    "name": "Cluster Beans / കൊത്തമര/ അമര പയർ",
+    "name": "Cluster Beans",
+    "malName": "കൊത്തമര/ അമര പയർ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/61+r2YSpHcL.webp",
@@ -849,7 +870,8 @@
     "rate": 1
   },
   {
-    "name": "Peechinga / പീച്ചിങ്ങ",
+    "name": "Peechinga",
+    "malName": "പീച്ചിങ്ങ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/peechinga.webp",
@@ -881,7 +903,8 @@
     "rate": 1
   },
   {
-    "name": "Sambar Vellari ( 600-900kg) | വെള്ളരി",
+    "name": "Sambar Vellari",
+    "malName": "വെള്ളരി",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/images_(14).jpg",
@@ -889,7 +912,8 @@
     "rate": 1
   },
   {
-    "name": "Lemon | ചെറുനാരങ്ങ",
+    "name": "Lemon",
+    "malName": "ചെറുനാരങ്ങ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/B65F284A-AE82-4FCB-A82F-C4BAD1C1D961.webp",
@@ -897,7 +921,8 @@
     "rate": 1
   },
   {
-    "name": "Curry lemon / കറി നാരങ്ങ",
+    "name": "Curry lemon",
+    "malName": "കറി നാരങ്ങ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/62045930-9201-4F5C-A826-E540028339B8.jpeg",
@@ -905,7 +930,8 @@
     "rate": 1
   },
   {
-    "name": "Tapioca | കപ്പ | Kappa",
+    "name": "Tapioca",
+    "malName": "കപ്പ ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/DyC13TAVsAAyZuP.jpg",
@@ -913,7 +939,8 @@
     "rate": 1
   },
   {
-    "name": "Coconut | തേങ്ങ",
+    "name": "Coconut",
+    "malName": "തേങ്ങ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/15213161.jpg",
@@ -921,7 +948,8 @@
     "rate": 1
   },
   {
-    "name": "vazhuthina - brinjal / വഴുതിന",
+    "name": "Brinjal",
+    "malName": "വഴുതിന",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/download_(3).jpg",
@@ -945,7 +973,8 @@
     "rate": 1
   },
   {
-    "name": "Pudina leaves | mint | പുതിന ഇല",
+    "name": "Pudina leaves ",
+    "malName": "പുതിന ഇല",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/pudina.webp",
@@ -961,7 +990,8 @@
     "rate": 1
   },
   {
-    "name": "Green chilli | പച്ച മുളക്",
+    "name": "Green chilli",
+    "malName": "പച്ച മുളക്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/green-chilli-2-500x5001.webp",
@@ -969,7 +999,8 @@
     "rate": 1
   },
   {
-    "name": "Butter Beans ( green ) | ബീൻസ്",
+    "name": "Butter Beans",
+    "malName": "ബീൻസ്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/Beans-Haricot.webp",
@@ -977,7 +1008,8 @@
     "rate": 1
   },
   {
-    "name": "Beans | ബീൻസ്",
+    "name": "Beans",
+    "malName": "ബീൻസ്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/beans1.webp",
@@ -985,7 +1017,8 @@
     "rate": 1
   },
   {
-    "name": "Coriander Leaves | മല്ലി ഇല",
+    "name": "Coriander Leaves",
+    "malName": "മല്ലി ഇല",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/corainder-759-thinkstock.jpg",
@@ -993,7 +1026,8 @@
     "rate": 1
   },
   {
-    "name": "Cauliflower ( 400g - 600 g ) | കോളി ഫ്‌ളവർ",
+    "name": "Cauliflower",
+    "malName": "കോളി ഫ്‌ളവർ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/steadycauliflower-steadycauliflower-image-12890-steady.jpg",
@@ -1001,7 +1035,8 @@
     "rate": 1
   },
   {
-    "name": "Drum stick | മുരിങ്ങ കോൽ",
+    "name": "Drum stick",
+    "malName": "മുരിങ്ങ കോൽ",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/GRO-VEG-UNB-DRUMSTICK-4-stk..webp",
@@ -1009,7 +1044,8 @@
     "rate": 1
   },
   {
-    "name": "Beetroot | ബീറ്റ്റൂട്ട്",
+    "name": "Beetroot",
+    "malName": "ബീറ്റ്റൂട്ട്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/Beetroot1-800x800_700x700.jpg",
@@ -1017,7 +1053,8 @@
     "rate": 1
   },
   {
-    "name": "Carrot | ക്യാരറ്റ്",
+    "name": "Carrot",
+    "malName": "ക്യാരറ്റ്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/img-carrot.jpg",
@@ -1025,7 +1062,8 @@
     "rate": 1
   },
   {
-    "name": "Cabbage | കാബേജ്",
+    "name": "Cabbage",
+    "malName": "കാബേജ്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/images_(8).jpg",
@@ -1033,7 +1071,8 @@
     "rate": 1
   },
   {
-    "name": "Potato | ഉരുള കിഴങ്ങ് | Munnar",
+    "name": "Potato",
+    "malName": "ഉരുള കിഴങ്ങ്",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/4244C799-8D34-484E-85BE-7C086603B048.jpg",
@@ -1041,7 +1080,8 @@
     "rate": 1
   },
   {
-    "name": "Big Onion | savala | സവാള",
+    "name": "Big Onion",
+    "malName": "സവാള",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/A306F2C0-C1BB-4F99-BC66-04947AC8EB691.jpeg",
@@ -1049,7 +1089,8 @@
     "rate": 1
   },
   {
-    "name": "Salad Cucumber | സാലഡ് വെള്ളരി",
+    "name": "Salad Cucumber",
+    "malName": "സാലഡ് വെള്ളരി",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/salad.jpg",
@@ -1057,7 +1098,8 @@
     "rate": 1
   },
   {
-    "name": "Curry leaves | കറിവേപ്പില",
+    "name": "Curry leaves",
+    "malName": "കറിവേപ്പില",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/cooking-with-curry-leaves-1024x684.jpg",
@@ -1065,7 +1107,8 @@
     "rate": 1
   },
   {
-    "name": "Small Onion | ഉള്ളി",
+    "name": "Small Onion",
+    "malName": "ഉള്ളി",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/1676449226_63ec95ca1de0e_9.webp",
@@ -1073,7 +1116,8 @@
     "rate": 1
   },
   {
-    "name": "Chena / ചേന / Elephant Yam",
+    "name": "Elephant Yam",
+    "malName": "ചേന",
     "category": "vegetables-2",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/F88F4B86-F093-413A-96D5-102D78FAF11A.jpeg",
@@ -1081,7 +1125,8 @@
     "rate": 1
   },
   {
-    "name": "പാവക്ക ഉണക്കിയത് | Sun dried bitter gourd",
+    "name": "Sun dried bitter gourd",
+    "malName": "പാവക്ക ഉണക്കിയത്",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/Bitter-Gourd-kondattom.webp",
@@ -1089,7 +1134,8 @@
     "rate": 1
   },
   {
-    "name": "Little Millet | ചാമ അരി",
+    "name": "Little Millet",
+    "malName": "ചാമ അരി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/51OxKnY9LsL._AC_UF1000,1000_QL80_.jpg",
@@ -1097,7 +1143,8 @@
     "rate": 1
   },
   {
-    "name": "Foxtail millets | തിന അരി",
+    "name": "Foxtail millets",
+    "malName": "തിന അരി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/unpolished-foxtail-nillet-navane-korralu-thinai-kakum-thina-naturally-grown-naati-grains-1000x1000.jpg",
@@ -1105,7 +1152,8 @@
     "rate": 1
   },
   {
-    "name": "Corn powder | Cholam | ചോളം പുട്ടു പൊടി",
+    "name": "Corn powder",
+    "malName": "ചോളം പുട്ടു പൊടി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/41b-zci852L.jpg",
@@ -1113,7 +1161,8 @@
     "rate": 1
   },
   {
-    "name": "Finger Millet powder |റാഗി പുട്ടു പൊടി",
+    "name": "Finger Millet powder",
+    "malName": "റാഗി പുട്ടു പൊടി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/xputtu.jpg.pagespeed.ic.1X2urz3vrW.webp",
@@ -1121,7 +1170,8 @@
     "rate": 1
   },
   {
-    "name": "Kodo millet | വരക് അരി",
+    "name": "Kodo millet",
+    "malName": "വരക് അരി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/kodo-millet-uzhavu-organic.webp",
@@ -1129,7 +1179,8 @@
     "rate": 1
   },
   {
-    "name": "Tender coconut | കരിക്ക്",
+    "name": "Tender coconut",
+    "malName": "കരിക്ക്",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/tandor-coconut-2.webp",
@@ -1137,7 +1188,8 @@
     "rate": 1
   },
   {
-    "name": "Multi Millet powder | മില്ലറ്റ് പുട്ടു പൊടി",
+    "name": "Multi Millet powder",
+    "malName": "മില്ലറ്റ് പുട്ടു പൊടി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/images_(16).jpeg",
@@ -1145,7 +1197,8 @@
     "rate": 1
   },
   {
-    "name": "Egg / മുട്ട (6 pc)",
+    "name": "Egg",
+    "malName": "മുട്ട",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/xintro-1597233855.jpg.pagespeed.ic.r4vQ5IoUtT.webp",
@@ -1153,7 +1206,8 @@
     "rate": 1
   },
   {
-    "name": "Kudampuli | Pot Tamarind | കുടംപുളി",
+    "name": "Kudampuli",
+    "malName": "കുടംപുളി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/images_,286,292.jpeg.pagespeed.ce.gNIFxMqg-l.webp",
@@ -1161,7 +1215,8 @@
     "rate": 1
   },
   {
-    "name": "Turmeric powder | മഞ്ഞൾ പൊടി ( 250 g )",
+    "name": "Turmeric powder",
+    "malName": "മഞ്ഞൾ പൊടി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/x564011E2-8EDB-4A1B-8D54-1C61A5B5F69D.jpg.pagespeed.ic.ElI1vBieL4.webp",
@@ -1169,7 +1224,8 @@
     "rate": 1
   },
   {
-    "name": "Coriander powder ( 250 g ) | മല്ലിപൊടി",
+    "name": "Coriander powder",
+    "malName": "മല്ലിപൊടി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/xB9F01A8F-1834-40AC-B74E-F6118786EC09.jpg.pagespeed.ic.6L7q3oxZoW.webp",
@@ -1177,7 +1233,8 @@
     "rate": 1
   },
   {
-    "name": "Chilli powder ( 250 g ) | മുളക് പൊടി",
+    "name": "Chilli powder",
+    "malName": "മുളക് പൊടി",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/download1.webp",
@@ -1185,7 +1242,8 @@
     "rate": 1
   },
   {
-    "name": "Pappadam ( 50g ) | നാടൻ പപ്പടം",
+    "name": "Pappadam",
+    "malName": "നാടൻ പപ്പടം",
     "category": "product",
     "qty": 1,
     "img": "https://findfresh.in/attachments/shop_images/B1BE1ED2-E27A-4E92-80F0-EC7AF315FF96.webp",

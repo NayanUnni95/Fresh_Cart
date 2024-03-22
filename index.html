@@ -21,31 +21,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="flex">
-    <div class="container flex">
+    <form class="container flex">
       <span class="back">
         <i class="fa-solid fa-arrow-left-long fa-lg"></i>
       </span>
       <h3>create new account!</h3>
-        <input type="text" class="inp" placeholder="name" id="name" />
-        <div class="name error flex"><h4>Empty name</h4></div>
-        <input type="text" class="inp" placeholder="email" id="email" />
-        <div class="email error flex"><h4>Invalid Email</h4></div>
-        <input
-          type="password"
-          class="inp passw"
-          placeholder="password"
-          id="pass"
-        />
-        <input
-          type="password"
-          class="inp passw"
-          placeholder="confirm password"
-          id="c_pass"
-        />
-        <div class="pass error flex"><h4>password doesn't match</h4></div>
-        <button class="signup" id="submit" type="submit">sign up</button>
-        <a href="./src/home/home.html"><h5>not now?</h5></a>
-    </div>
+      <input type="text" class="inp" placeholder="name" id="name" required />
+      <!-- <div class="name error flex"><h4>Empty name</h4></div> -->
+      <input
+        type="email"
+        class="inp"
+        id="email"
+        placeholder="email"
+        pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}"
+        title="must be a valid email address"
+        required
+      />
+      <!-- <div class="email error flex"><h4>Invalid Email</h4></div> -->
+      <input
+        type="password"
+        class="inp passw"
+        id="pass"
+        placeholder="password"
+        pattern="[a-zA-Z0-9]{8,}"
+        title="Must be at least 8 characters"
+        required
+      />
+      <input
+        type="password"
+        class="inp passw"
+        id="c_pass"
+        placeholder="confirm password"
+        pattern="[a-zA-Z0-9]{8,}"
+        title="Must be at least 8 characters"
+        required
+      />
+      <div class="pass error flex"><h4>password doesn't match</h4></div>
+      <button class="signup" id="submit">sign up</button>
+      <a href="./src/home/home.html"><h5>not now?</h5></a>
+    </form>
     <script src="./script.js"></script>
   </body>
 </html>

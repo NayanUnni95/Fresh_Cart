@@ -2,15 +2,7 @@ const userName = document.getElementById('name');
 const email = document.getElementById('email');
 const pass = document.getElementById('pass');
 const confirmPass = document.getElementById('c_pass');
-const nameErr = document.querySelector('.name');
-const emailErr = document.querySelector('.email');
 const passErr = document.querySelector('.pass');
-
-// eslint-disable-next-line require-jsdoc
-function validateEmail(email) {
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
-}
 
 document.querySelector('#email').onclick = () => {
   const value = userName.value ?? null;
@@ -43,38 +35,15 @@ document.querySelector('#submit').onclick = () => {
   const emailValue = email.value || null;
   const passValue = pass.value || null;
   const conPass = confirmPass.value || null;
-  if (nameValue && emailValue && passValue && conPass) {
-    if (passValue != conPass) {
-      passErr.classList.toggle('active');
-    } else if (passValue === conPass) {
-      passErr.classList.toggle('.pass');
-      window.open('./src/home/home.html', '_self');
-    }
+  if (passValue != conPass) {
+    passErr.classList.toggle('active');
+  } else {
+    // passErr.classList.toggle('.pass');
     setKey('name', nameValue);
     setKey('email', emailValue);
     setKey('pass', passValue);
     console.log('Login success 🎊');
-  } else if (!nameValue && !emailValue && !passValue && !conPass) {
-    nameErr.classList.toggle('active');
-    emailErr.classList.toggle('active');
-    passErr.classList.toggle('active');
-  } else if (nameValue && !emailValue && !passValue && !conPass) {
-    nameErr.classList.toggle('.name');
-    emailErr.classList.toggle('active');
-    passErr.classList.toggle('active');
-  } else if (!nameValue && emailValue && !passValue && !conPass) {
-    nameErr.classList.toggle('active');
-    emailErr.classList.toggle('.email');
-    passErr.classList.toggle('active');
-  } else if (nameValue && emailValue) {
-    nameErr.classList.toggle('.name');
-    emailErr.classList.toggle('.email');
-    console.log(`${passValue} ${conPass}`);
-    if (!passValue && !conPass) {
-      passErr.classList.toggle('active');
-    } else if (!passValue || conPass) {
-      passErr.classList.toggle('active');
-    }
+    window.open('./src/home/home.html', '_self');
   }
 };
 
