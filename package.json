@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/NayanUnni95/Fresh_Cart#readme",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "prettier": "^3.2.5"
   }
 }
